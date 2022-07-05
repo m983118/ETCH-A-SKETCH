@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fillFrame {
+  font-size: 24px;
+  border: solid;
+  width: 250px;    
+}
+
+.explainFrame {
+  font-size: 24px;
+  border: solid;
+  width: 500px;    
+}
+
+.btnsFrame {
+  font-size: 24px;
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+.showFrame {
+  font-size: 24px;
+  border: solid;  
+  display: flex;
+  align-items: center;
+  width: 250px;      
+}
+
+.gameZone {
+  font-size: 24px;
+  border: solid;
+  width: 500px;
+  height: 500px;
+  }   
+
+
+.changeGrid {
+  font-size: 24px;
+  height: 30px;
+}
