@@ -22,12 +22,12 @@ html, body {
 
 .explainFrame {
   font-size: 24px;
+  font-weight: bold;
   border: solid;
   width: 500px;    
 }
 
 .btnsFrame {
-  font-size: 24px;
   border: solid;
   display: flex;
   align-items: center;
@@ -36,11 +36,14 @@ html, body {
 }
 
 .showFrame {
+  width: 250px;
   font-size: 24px;
+  font-weight: bold;
+  text-align: center;  
   border: solid;  
   display: flex;
   align-items: center;
-  width: 250px;      
+  justify-content: center;
 }
 
 .gameZone {
@@ -48,10 +51,12 @@ html, body {
   border: solid;
   width: 500px;
   height: 500px;
+  display: flex;
+  flex-wrap: wrap;
   }   
-
 
 .changeGrid {
   font-size: 24px;
+  font-weight: bold;
   height: 30px;
 }
